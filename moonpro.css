@@ -1,0 +1,139 @@
+
+.bg-light {
+  background-color: #F0EEF5 !important;
+  background: url("../components/bavk.gif") ;
+   
+  }
+
+
+  .page-hero-section {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .page-hero-section h1 {
+    font-size: 3.5rem;
+  }
+  
+  .page-hero-section .hero-caption {
+    height: 100%;
+  }
+  
+  
+/* Image */
+.bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-image-parallax {
+    background-attachment: fixed;
+  }
+  
+  .bg-image-overlay-dark::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 51, 64, 0.6);
+  }
+  
+  .img-place {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .img-place > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-place.w-auto > img {
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .img-place.h-auto > img {
+    height: auto;
+    max-height: 100%;
+  }
+  
+  .img-place.custom-size > img {
+    width: unset;
+    height: unset;
+  }
+
+  .hero-mini {
+    height: 462px;
+  }
+
+  .fg-white {
+    color: #fff !important;
+  }
+
+ 
+  .fg-primary {
+    color: var(--primary) !important;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .py-3 {
+    padding-top: 1rem !important;
+  }
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .justify-content-center {
+    justify-content: center !important;
+  }
+
+  .page-sectionss {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:linear-gradient(#070047,#ffffff);
+  }
+
+  #call-to-actionss {
+    background: #070047;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  #call-to-actionss .cta-title {
+    color: #bea54c;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  #call-to-actionss .cta-text {
+    color: #fff;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  #call-to-actionss .cta-texts {
+    color: #3633ff;
+    text-align: justify;
+    font-size: 20px;
+    text-justify: inter-word;
+  }
+  
